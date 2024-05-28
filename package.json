@@ -8,11 +8,18 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "3.2.5",
     "vitepress": "^1.2.2"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
