@@ -1,0 +1,5 @@
+# vitepress distribution and cache files
+.vitepress/dist
+.vitepress/cache
+# npm dependencies
+/node_modules
