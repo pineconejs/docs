@@ -1,0 +1,10 @@
+{
+  "name": "pinecone-docs",
+  "version": "0.1.0",
+  "description": "docs for pinecone",
+  "main": "index.md",
+  "repository": "https://github.com/pineconejs/docs",
+  "author": "mrchar",
+  "license": "MIT",
+  "private": true
+}
