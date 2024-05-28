@@ -2,6 +2,7 @@
   "recommendations": [
     "bierner.markdown-mermaid",
     "esbenp.prettier-vscode",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "github.vscode-github-actions"
   ]
 }
