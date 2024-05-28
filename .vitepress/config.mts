@@ -1,7 +1,7 @@
-import { defineConfig } from "vitepress"
+import { withMermaid } from "vitepress-plugin-mermaid"
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "松果应用",
   description: "基于表单设计器、可视化编程、流程引擎实现的可配置应用程序",
   themeConfig: {
